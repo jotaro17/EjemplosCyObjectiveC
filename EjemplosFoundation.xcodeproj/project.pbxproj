@@ -18,6 +18,11 @@
 		E2FC625814E3B200006B0527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FC623F14E3B200006B0527 /* Foundation.framework */; };
 		E2FC626014E3B200006B0527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2FC625E14E3B200006B0527 /* InfoPlist.strings */; };
 		E2FC626314E3B200006B0527 /* EjemplosFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC626214E3B200006B0527 /* EjemplosFoundationTests.m */; };
+		E2FC626E14E3B576006B0527 /* EjemplosDeC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC626D14E3B576006B0527 /* EjemplosDeC.m */; };
+		E2FC627114E3B6F7006B0527 /* EjemplosObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC627014E3B6F7006B0527 /* EjemplosObjectiveC.m */; };
+		E2FC627714E3C7A1006B0527 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC627614E3C7A1006B0527 /* NSString+IsEmpty.m */; };
+		E2FC627D14E3C98C006B0527 /* Cerdo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC627C14E3C98C006B0527 /* Cerdo.m */; };
+		E2FC628014E3CAEA006B0527 /* Pajaro.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FC627F14E3CAEA006B0527 /* Pajaro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,29 @@
 		E2FC623D14E3B200006B0527 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2FC623F14E3B200006B0527 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2FC624114E3B200006B0527 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2FC624514E3B200006B0527 /* EjemplosFoundation-Info.plist */ = {isa = PBXFileReference; path = "EjemplosFoundation-Info.plist"; sourceTree = "<group>"; };
+		E2FC624514E3B200006B0527 /* EjemplosFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemplosFoundation-Info.plist"; sourceTree = "<group>"; };
 		E2FC624714E3B200006B0527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2FC624914E3B200006B0527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2FC624B14E3B200006B0527 /* EjemplosFoundation-Prefix.pch */ = {isa = PBXFileReference; path = "EjemplosFoundation-Prefix.pch"; sourceTree = "<group>"; };
-		E2FC624C14E3B200006B0527 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2FC624B14E3B200006B0527 /* EjemplosFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EjemplosFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		E2FC624C14E3B200006B0527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2FC624D14E3B200006B0527 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2FC625414E3B200006B0527 /* EjemplosFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemplosFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FC625514E3B200006B0527 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E2FC625D14E3B200006B0527 /* EjemplosFoundationTests-Info.plist */ = {isa = PBXFileReference; path = "EjemplosFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		E2FC625D14E3B200006B0527 /* EjemplosFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemplosFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E2FC625F14E3B200006B0527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E2FC626114E3B200006B0527 /* EjemplosFoundationTests.h */ = {isa = PBXFileReference; path = EjemplosFoundationTests.h; sourceTree = "<group>"; };
+		E2FC626114E3B200006B0527 /* EjemplosFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EjemplosFoundationTests.h; sourceTree = "<group>"; };
 		E2FC626214E3B200006B0527 /* EjemplosFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemplosFoundationTests.m; sourceTree = "<group>"; };
+		E2FC626C14E3B576006B0527 /* EjemplosDeC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EjemplosDeC.h; sourceTree = "<group>"; };
+		E2FC626D14E3B576006B0527 /* EjemplosDeC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EjemplosDeC.m; sourceTree = "<group>"; };
+		E2FC626F14E3B6F7006B0527 /* EjemplosObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EjemplosObjectiveC.h; sourceTree = "<group>"; };
+		E2FC627014E3B6F7006B0527 /* EjemplosObjectiveC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EjemplosObjectiveC.m; sourceTree = "<group>"; };
+		E2FC627514E3C7A1006B0527 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
+		E2FC627614E3C7A1006B0527 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
+		E2FC627914E3C92B006B0527 /* Cantar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cantar.h; sourceTree = "<group>"; };
+		E2FC627B14E3C98C006B0527 /* Cerdo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cerdo.h; sourceTree = "<group>"; };
+		E2FC627C14E3C98C006B0527 /* Cerdo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cerdo.m; sourceTree = "<group>"; };
+		E2FC627E14E3CAEA006B0527 /* Pajaro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pajaro.h; sourceTree = "<group>"; };
+		E2FC627F14E3CAEA006B0527 /* Pajaro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pajaro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +124,16 @@
 			children = (
 				E2FC624C14E3B200006B0527 /* AppDelegate.h */,
 				E2FC624D14E3B200006B0527 /* AppDelegate.m */,
+				E2FC626C14E3B576006B0527 /* EjemplosDeC.h */,
+				E2FC626D14E3B576006B0527 /* EjemplosDeC.m */,
+				E2FC626F14E3B6F7006B0527 /* EjemplosObjectiveC.h */,
+				E2FC627014E3B6F7006B0527 /* EjemplosObjectiveC.m */,
+				E2FC627E14E3CAEA006B0527 /* Pajaro.h */,
+				E2FC627F14E3CAEA006B0527 /* Pajaro.m */,
+				E2FC627B14E3C98C006B0527 /* Cerdo.h */,
+				E2FC627C14E3C98C006B0527 /* Cerdo.m */,
+				E2FC627A14E3C93F006B0527 /* Protocolos */,
+				E2FC627814E3C806006B0527 /* Categorias */,
 				E2FC624414E3B200006B0527 /* Supporting Files */,
 			);
 			path = EjemplosFoundation;
@@ -141,6 +167,23 @@
 				E2FC625E14E3B200006B0527 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FC627814E3C806006B0527 /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC627514E3C7A1006B0527 /* NSString+IsEmpty.h */,
+				E2FC627614E3C7A1006B0527 /* NSString+IsEmpty.m */,
+			);
+			name = Categorias;
+			sourceTree = "<group>";
+		};
+		E2FC627A14E3C93F006B0527 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC627914E3C92B006B0527 /* Cantar.h */,
+			);
+			name = Protocolos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +293,11 @@
 			files = (
 				E2FC624A14E3B200006B0527 /* main.m in Sources */,
 				E2FC624E14E3B200006B0527 /* AppDelegate.m in Sources */,
+				E2FC626E14E3B576006B0527 /* EjemplosDeC.m in Sources */,
+				E2FC627114E3B6F7006B0527 /* EjemplosObjectiveC.m in Sources */,
+				E2FC627714E3C7A1006B0527 /* NSString+IsEmpty.m in Sources */,
+				E2FC627D14E3C98C006B0527 /* Cerdo.m in Sources */,
+				E2FC628014E3CAEA006B0527 /* Pajaro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "EjemplosDeC.h"
+#import "EjemplosObjectiveC.h"
 
 @implementation AppDelegate
 
@@ -18,6 +20,14 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //LLamada a metodo de Clase
+    [EjemplosDeC ejecutoEjemplosDeC];
+    
+    //LLamada como metodo de Instancia
+    EjemplosObjectiveC *ejemplosDeObjectiveC = [[EjemplosObjectiveC alloc] init];
+    [ejemplosDeObjectiveC ejecutoEjemploDeObjectiveC];
+    
     return YES;
 }
 
